@@ -1,0 +1,353 @@
+body {
+  background-color: #f8f6f1; /* لون خلفية الصفحة */
+}
+
+.containername {
+  border: 2px solid rgb(245 194 216); /* حدود بسمك 2 بكسل بلون RGB */
+  border-radius: 15px; /* تدوير الحواف لتكوين زوايا مستديرة */
+  width: 366px; /* عرض العنصر بوحدة البكسل */
+  text-align: center; /* محاذاة النص في المركز */
+}
+
+.header-main {
+  width: 500px; /* عرض العنصر بوحدة البكسل */
+  text-align: center; /* محاذاة النص في المركز */
+  margin-left: 600px; /* هوامش يسار العنصر بوحدة البكسل */
+}
+
+.containername p {
+  font-family: 'Pacifico', cursive; /* نوع الخط المستخدم */
+  font-size: 72px; /* حجم الخط بوحدة البكسل */
+  color: #ff70a6; /* لون النص */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* ظل النص بلون محدد وتأثير ظلال */
+  text-align: center; /* محاذاة النص في المركز */
+  margin-top: 2px; /* هامش أعلى العنصر بوحدة البكسل */
+}
+
+nav {
+  background-color: #f5c2d8; /* لون خلفية شريط التنقل */
+  margin-bottom: 30px; /* هامش أسفل العنصر بوحدة البكسل */
+}
+
+nav ul {
+  list-style-type: none; /* نوع الرموز لقائمة التنقل */
+  margin: 0;
+  padding: 0;
+  display: flex; /* عرض العناصر بتنسيق مرن */
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center; /* محاذاة النص في المركز */
+}
+
+nav ul li a {
+  color: #fff; /* لون النص */
+  background-color: #f28eba; /* لون خلفية الروابط */
+  text-decoration: none; /* إزالة تأثيرات النص */
+  padding: 15px 20px; /* الهامش الداخلي للروابط */
+}
+
+nav ul li a.active {
+  background-color: #ff6b9e; /* لون خلفية الرابط النشط */
+}
+
+h1 {
+  text-align: center; /* محاذاة النص في المركز */
+  margin-top: 50px; /* هامش أعلى العنصر بوحدة البكسل */
+}
+
+table {
+  margin: 0 auto; /* محاذاة الجدول في المركز */
+  border-collapse: collapse; /* دمج حدود الخلايا */
+}
+
+th, td {
+  padding: 10px; /* الهامش الداخلي للخلايا */
+  text-align: center; /* محاذاة النص في المركز */
+  border: 1px solid #ccc; /* حدود الخلايا بسمك 1 بكسل ولون محدد */
+}
+
+#video-container {
+  text-align: center; /* محاذاة النص في المركز */
+}
+
+#video-container video {
+  max-width: 100%; /* أقصى عرض للفيديو بالنسبة المتمت الإضافة المتبقية للشرح، وإليك الجزء الثاني منه:
+
+```css
+#video-container video {
+  max-width: 100%; /* أقصى عرض للفيديو بالنسبة المئوية */
+  height: auto; /* احتفاظ التوازن بين العرض والارتفاع للفيديو */
+}
+
+footer {
+  background-color: #fbe5e95a; /* لون خلفية التذييل */
+  padding: 20px 0; /* الهامش الداخلي للعنصر بوحدة البكسل */
+  text-align: center; /* محاذاة النص في المركز */
+}
+
+.footer-container {
+  max-width: 500px; /* أقصى عرض للعنصر بوحدة البكسل */
+  margin: 0 auto; /* محاذاة العنصر في المركز */
+}
+
+footer p {
+  color: black; /* لون النص */
+  font-size: 14px; /* حجم الخط بوحدة البكسل */
+}
+
+.home-bg{
+
+   background:linear-gradient(50deg,#ffffff, transparent 100%), url(../images/home-bg.jpg) no-repeat;
+   /* خلفية عبارة عن تدرج لوني وصورة معينة */
+   background-size: cover; /* تغطية الخلفية بالكامل */
+   background-position: center; /* محاذاة الخلفية في المركز */
+
+}
+
+.home-bg .home{
+   min-height: 70rem; /* الحد الأدنى لارتفاع العنصر بوحدة البكسل */
+   display: flex; /* عرض العناصر بتنسيق مرن */
+   align-items: center; /* محاذاة العناصر في المركز */
+}
+
+.home-bg .home .content{
+   width: 50rem; /* عرض العنصر بوحدة البكسل */
+   text-align: center; /* محاذاة النص في المركز */
+}
+
+.home-bg .home .content h3{
+   font-size: 6rem; /* حجم الخط بوحدة البكسل */
+   text-transform:  capitalize; /* تحويل النص إلى حروف كبيرة */
+   color:#333; /* لون النص */
+   font-family: 'Merienda One', cursive; /* نوع الخط المستخدم */
+}
+
+.home-bg .home .content p{
+   padding:1rem 0; /* الهامش الداخلي للعنصر بوحدة البكسل */
+   font-size: 1.6rem; /* حجم الخط بوحدة البكسل */
+   color:#000000; /* لون النص */
+   line-height: 2; /* ارتفاع السطر بوحدة البكسل */
+}
+
+.btn{
+   display: inline-block; /* عرض العنصر كعنصر مستقل */
+   margin-top: 1rem; /* هامش أعلى العنصر بوحدة البكسل */
+   background-color: black; /* لون خلفية العنصر */
+   cursor: pointer; /* تغيير المؤشر عند تحويله فوق العنصر */
+   color:#fff; /* لون النص */
+   font-size: 1.8rem; /* حجم الخط بوحدة البكسل */
+   padding:1rem 3rem; /* الهامش الداخلي للعنصر بوحدة البكسل */
+   text-transform: capitalize; /* تحويل النص إلى حروف كبيرة */
+   border-radius: 1.2rem; /* تدوير الحواف لتكوين زوايا مستديرة */
+}
+
+.btn:hover{
+   background-color:#f5c2d8; /* لون خلفية العنصر عند تحويل المؤشر فوقه */
+}
+
+.menu .box-container{
+   display: grid; /* عرض العناصر بتنسيق شبكي */
+   grid-template-columns: repeat(auto-fit, 40rem); /* تكرار العناصر وفقًا للعرض المتاح */
+   gap:2rem; /* المسافة بين العناصر بوحدة البكسل */
+   align-items: flex-start; /* محاذاة العناصر في أعلى العمود */
+   justify-content: center; /* محاذاة العناصر في المركز */
+}
+
+.menu .box-container .box{
+   text-align: center; /* محاذاة النص في المركز */
+}
+
+.menu .box-container .box img{
+  height: 30rem; /* ارتفاع الصورة بوحدة البكسل */
+   width: 40rem; /* عرض الصورة بوحدة البكسل */
+   margin-bottom: 1rem; /* الهامش الخارجي للصورة بوحدة البكسل */
+}
+
+.menu .box-container .box h3{
+   font-size: 2rem; /* حجم الخط بوحدة البكسل */
+   color:#333; /* لون النص */
+}
+
+.heading{
+   text-align: center; /* محاذاة النص في المركز */
+   margin-bottom: 3rem; /* الهامش الخارجي للعنصر بوحدة البكسل */
+}
+
+.heading img{
+   height: 4rem; /* ارتفاع الصورة بوحدة البكسل */
+   margin-bottom: 1rem; /* الهامش الخارجي للصورة بوحدة البكسل */
+}
+
+.heading h3{
+   font-size:4rem; /* حجم الخط بوحدة البكسل */
+   color:#333; /* لون النص */
+   font-family: 'Merienda One', cursive; /* نوع الخط المستخدم */
+}
+
+.contact .row{
+   display: flex; /* عرض العناصر بتنسيق مرن */
+   align-items: center; /* محاذاة العناصر في المركز */
+   flex-wrap: wrap; /* لف العناصر عند تجاوز العرض المتاح */
+   gap:2rem; /* المسافة بين العناصر بوحدة البكسل */
+}
+
+.contact .row .image{
+   flex:1 1 50rem; /* تحديد نسبة العرض للعنصر */
+}
+
+.contact .row .image img{
+   width: 100%; /* عرض الصورة بالكامل */
+}
+
+.contact .row form{
+   flex:1 1 30rem; /* تحديد نسبة العرض للعنصر */
+   border:.2rem solid#333; /* سمك ونوع الحدود */
+   padding:2rem; /* الهامش الداخلي للعنصر بوحدة البكسل */
+   text-align: center; /* محاذاة النص في المركز */
+   margin-right:50px; /* الهامش اليميني للعنصر بوحدة البكسل */
+}
+
+.contact .row form h3{
+   font-size: 2.5rem; /* حجم الخط بوحدة البكسل */
+   margin-bottom: 1rem; /* الهامش السفلي للعنصر بوحدة البكسل */
+   color:#333; /* لون النص */
+}
+
+.contact .row form .box{
+   width: 90%; /* عرض العنصر بوحدة البكسل */
+   padding:1.4rem; /* الهامش الداخلي للعنصر بوحدة البكسل */
+   font-size: 1.8rem; /* حجم الخط بوحدة البكسل */
+   color:#333; /* لون النص */
+   border-bottom: 1px solid #000000; /* سمك ولون الخط السفلي */
+   margin:1rem 0; /* الهامش الخارجي للعنصر بوحدة البكسل */
+}
+@media (max-width: 7000px) {
+  .containername {
+    width: 100%;
+  }
+}/* Responsive styles for header-main */
+@media (max-width: 7000px) {
+  .header-main {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* Responsive styles for h1 */
+@media (max-width: 7000px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* Responsive styles for table */
+@media (max-width: 7000px) {
+  table {
+    width: 100%;
+  }
+}
+
+
+
+/* Responsive styles for footer */
+@media (max-width: 600px) {
+  .footer-container {
+    max-width: 100%;
+  }
+}
+
+/* Responsive styles for .home-bg */
+@media (max-width: 600px) {
+  .home-bg {
+    min-height: auto;
+    background: linear-gradient(50deg, #ffffff, transparent 100%);
+  }
+}
+
+/* Responsive styles for .home .content */
+@media (max-width: 600px) {
+  .home .content {
+    width: 100%;
+  }
+}
+
+/* Responsive styles for .home .content h3 */
+@media (max-width: 600px) {
+  .home .content h3 {
+    font-size: 36px;
+  }
+}
+
+/* Responsive styles for .home .content p */
+@media (max-width: 600px) {
+  .home .content p {
+    font-size: 16px;
+  }
+}
+
+/* Responsive styles for .btn */
+@media (max-width: 600px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+/* Responsive styles for .menu .box-container */
+@media (max-width: 600px) {
+  .menu .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Responsive styles for .menu .box */
+@media (max-width: 600px) {
+  .menu .box{
+   text-align: center;
+}
+ /* تنسيقات CSS للجهاز الكمبيوتر الشخصي */
+    @media (min-width: 768px) {
+      body {
+        font-size: 18px;
+      }
+    }
+
+    /* تنسيقات CSS للأجهزة اللوحية */
+    @media (min-width: 576px) and (max-width: 767px) {
+      body {
+        font-size: 16px;
+      }
+    }
+
+    /* تنسيقات CSS للهواتف الذكية */
+    @media (max-width: 575px) {
+      body {
+        font-size: 14px;
+      }
+    }
+ 
+img {
+      max-width: 100%;
+      height: auto;
+    }
+	@media (max-width: 768px) {
+  nav {
+    padding: 5px;
+  }
+  
+  ul {
+    flex-direction: column;
+    align-items: center;
+	
+  }
+  
+  li {
+    margin: 20px 0;
+  }
+  
+  /* توسيع حجم الروابط لتكون أكبر في الهواتف */
+  a {
+    font-size: 18px;
+  }
+}
